@@ -1,0 +1,10 @@
+used for haXe projects that want to use TweenLite.
+add using git submodule add git@github.com:theRemix/TweenLiteHaXe.git src/gs
+or something similar to get the gs package in your src dir.
+also includes the source .fla and .as files for updating the lib swf
+
+your .gitmodules should look like this
+
+[submodule "src/gs"]
+	path = src/gs
+	url = git@github.com:theRemix/TweenLiteHaXe.git
